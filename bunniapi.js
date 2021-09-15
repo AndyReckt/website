@@ -18,12 +18,12 @@ let cache = {
         custom: null,
         richPresence: []
     },
-    avatar: "https://cdn.discordapp.com/avatars/777653679506980875/32ca21f0e206fb3b4c7e9cbf60eb5b00.webp"
+    avatar: "https://cdn.discordapp.com/avatars/358630351343714304/a_8074711549542b0df97fccb2b541477b.gif?size=4096"
 };
 
 async function getStatus() {
     cache.status.richPresence = [];
-    const user = await client.users.fetch("777653679506980875", { force: true });
+    const user = await client.users.fetch("358630351343714304", { force: true });
     const stat = user.presence.status;
     if (stat == "invisible" || stat == "offline") {
         cache.status.general.colour = "#747F8D";

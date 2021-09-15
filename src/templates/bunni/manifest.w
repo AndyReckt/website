@@ -8,7 +8,7 @@ import { init } from "../../util/logger.mod.w";
 const client = new Client();
 const configuration = getConfig();
 let status = "#747F8D";
-let pfp = "/assets/images/kylar2.png";
+let pfp = "/assets/images/eeee.png";
 let spotify = "NONE";
 let spotifySong = "nothing";
 // Webserver

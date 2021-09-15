@@ -9,9 +9,9 @@ const app = express();
 const config = getConfig();
 
 app.set("view engine", "ejs");
-app.set("views", path.join(__dirname + `/templates/${config.template}`));
+app.set("views", path.join(__dirname + `/templates/bunni`));
 app.use(capture());
-app.use("/", require(path.join(__dirname + `/templates/${config.template}/manifest.w`)));
+app.use("/", require(path.join(__dirname + `/templates/bunnni/manifest.w`)));
 
 app.listen(8669, function() {
     console.log(listening("Website is listening on port 8669"));

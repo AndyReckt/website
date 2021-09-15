@@ -1,4 +1,4 @@
 # website
-My website lol
+ItzBunniYT's website edited so i can use it
 
-thanks to danny for og design B)
+all credits goes to her and danny
